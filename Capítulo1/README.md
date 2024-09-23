@@ -1,41 +1,22 @@
-# Nombre del laboratorio 
+# Quiz de reforzamiento
 
 ## Objetivo de la práctica:
-Al finalizar la práctica, serás capaz de:
-- Objetivo1
-- Objetivo2
-- Objetivo3
+Evaluar los conocimientos básicos sobre la importancia de los datos y su análisis en las empresas modernas. A través de preguntas sobre temas como el valor de los datos, el ciclo de vida de los mismos, y su papel en la toma de decisiones estratégica
 
-## Objetivo Visual 
-Crear un diagrama o imagen que resuma las actividades a realizar, un ejemplo es la siguiente imagen. 
 
-![diagrama1](../images/img1.png)
 
 ## Duración aproximada:
-- xx minutos.
-
-## Tabla de ayuda:
-Agregar una tabla con la información que pueda requerir el participante durante el laboratorio, como versión de software, IPs de servers, usuarios y credenciales de acceso.
-| Contraseña | Correo | Código |
-| --- | --- | ---|
-| Netec2024 | edgardo@netec.com | 123abc |
+- 10 minutos.
 
 ## Instrucciones 
-<!-- Proporciona pasos detallados sobre cómo configurar y administrar sistemas, implementar soluciones de software, realizar pruebas de seguridad, o cualquier otro escenario práctico relevante para el campo de la tecnología de la información -->
-### Tarea 1. Descripción de la tarea a realizar.
-Paso 1. Debe de relatar el instructor en verbo infinito, claro y conciso cada actividad para ir construyendo paso a paso en el objetivo de la tarea.
+*Paso. 1* Ingresar al siguiente link: https://kahoot.it/ 
 
-Paso 2. <!-- Añadir instrucción -->
+![Imagen 1](../images/img1.png)
 
-Paso 3. <!-- Añadir instrucción -->
+*Paso 2* Colocar el pin de juego que el instructor le proporcione
 
-### Tarea 2. Descripción de la tarea a realizar.
-Paso 1. Debe de relatar el instructor en verbo infinito, claro y conciso cada actividad para ir construyendo paso a paso en el objetivo de la tarea.
-
-Paso 2. <!-- Añadir instrucción -->
-
-Paso 3. <!-- Añadir instrucción -->
+*Paso 3*: Responder las preguntas a lo que consideres correcto.
 
 ### Resultado esperado
-En esta sección, se debe mostrar el resultado esperado de nuestro laboratorio
-![imagen resultado](../images/img3.png)
+
+Al finalizar el Quiz visualizaras los puntos obtenidos por todas las respuestas que seleccionaste y un número de posición. 
