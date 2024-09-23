@@ -5,7 +5,7 @@ Al finalizar la práctica, serás capaz de:
 - Crear y modificar tablas dinámicas en Excel, incluyendo la personalización de los informes para mostrar datos específicos como ventas totales por productos y regiones.
 
 ## Duración aproximada:
-- 5 minutos.
+- 10 minutos.
 
 
 ## Instrucciones 
@@ -83,7 +83,7 @@ Paso 2. Guarda los cambios realizados en el archivo y mantenlo abierto.
 - Ordenar datos en una tabla dinámica para identificar tendencias y patrones de ventas.
 
 ## Duración aproximada:
--  7 minutos.
+-  15 minutos.
 
 
 ## Instrucciones 
@@ -185,7 +185,7 @@ Paso 3. Guarda el libro de trabajo y mantén el archivo abierto.
 - Interpretar y analizar las variaciones de ventas a través de gráficos dinámicos para apoyar la toma de decisiones informadas.
 
 ## Duración aproximada:
-- 7 minutos.
+- 15 minutos.
 
 
 ## Instrucciones 
@@ -279,7 +279,7 @@ Al finalizar la práctica, serás capaz de:
 - Interpretar los resultados filtrados para identificar tendencias y patrones, como la distribución de ventas en regiones específicas y el rendimiento de vendedores particulares.
 
 ## Duración aproximada:
-- 8 minutos.
+- 15 minutos.
 
 
 ## Instrucciones 
