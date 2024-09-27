@@ -1,18 +1,18 @@
-# Trabajando con Funciones Lógicas
+# Práctica 4.1. Trabajando con Funciones Lógicas.
 
 ## Objetivo de la práctica:
+
 Al finalizar la práctica, serás capaz de:
 
-- Estructurar fórmulas que integren múltiples niveles de lógica, optimizando así la eficiencia y precisión en el análisis de datos.
-
+- Estructurar fórmulas que integren múltiples niveles de lógica, optimizando la eficiencia y precisión en el análisis de datos.
 
 ## Duración aproximada:
 - 15 minutos.
 
+## Instrucciones:
 
-## Instrucciones 
+## Escenario:
 
-## Escenario
 Encabezando el equipo de ventas en Devletech, has recomendado una estructura de compensación tal que se otorgue un bono del 1 por ciento sobre las ventas totales a todos los vendedores que superen sus metas de ventas. Además, para cada categoría con ventas superiores a $85,000, se les otorgará un bono del 1 por ciento de las ventas de esa categoría. También deseas contar el número de veces que un empleado alcanza la meta de la categoría. Usarás funciones lógicas para calcular rápida y fácilmente estos bonos.
 
 ### Tarea 1. Descripción de la tarea a realizar.
