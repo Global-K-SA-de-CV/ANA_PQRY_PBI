@@ -1,206 +1,31 @@
-# Funciones que podría usar el instructor
-En este documento se muestran algunas muestras de formatos que se pueden usar en el archivo **README.me** que pueden ser de ayuda para el instructor
+# Curso: Cómo aprovechar los datos para tomar decisiones, sin ser un analítico.
 
-- [Fragmentos de código](#fragmentos-de-codigo)
-- [Listas](#listas)
-- [Tablas](#tablas)
-- [Insertar imágenes](#imagenes)
-- [Alertas](#alertas)
+## Descripción del curso:
 
-# Fragmentos de codigo
+Este curso está diseñado para profesionales en áreas administrativas y analistas de tecnología que desean mejorar sus habilidades en la gestión y análisis de datos para la toma de decisiones informadas. 
 
+A lo largo de seis módulos, los participantes aprenderán a recopilar, organizar, limpiar, analizar y presentar datos utilizando herramientas como Excel, Power Query y una introducción a Power BI. 
 
-## Bloques de código
-Para agregar algún fragmento de código debemos de usar la siguiente sintáxis:
+El enfoque del curso es práctico, con ejemplos y actividades que permiten aplicar los conceptos aprendidos en situaciones reales de trabajo.
 
+### Índice:
 
-### Python
-
-```python
-import datetime
-
-def str2date(sf:str):#"2020-05-08"
-    datos=sf.split('-')#['2020', '05', '08']
-                #'2020':str->2020:int, '05':str->05:int, '08':str->05:int
-    fecha=datetime.date(int(datos[0]), int(datos[1]), int(datos[2]))
-    return fecha
-
-sf=input("ingrese la fecha YYYY-MM-DD: ")
-fecha=str2date(sf)
-print(fecha)
-print(type(fecha))
-```
-
-### Java
-```java
-public void cleanup() {
-        try {
-            if (connection != null)
-                connection.close();
-        } catch (Exception e) {
-            System.out.println("Excepción capturada: ");
-            e.printStackTrace();
-        }
-    }
-```
-
-
-### shell
-```shell
-#!/bin/sh
-
-CONTADOR=0
-until [ $CONTADOR – ge 3]]; do
-    echo El contador es $CONTADOR
-    CONTADOR=$(($CONTADOR+1))
-done
-```
-
-### Ruby
-```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
-```
-
-### HTML
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
-</html>
-
-```
-
-### Javascript
-
-```javascript
-var database=db.getSiblingDB("database")
-var collection=database.getCollection("people")
-
-var data=[
-    {name:"edgar"},
-    {name:"juan"},
-    {name:"alicia"}
-]
-
-data.forEach(t=>{
-    console.log(t)
-    var result=collection.insertOne(t)
-    console.log(result)
-})
-
-```
-# Listas
-
-## Lista simple
-- elemento 1
-- elemento 2
-- elemento 3
-
-## Lista números
-1. elemento 1
-2. elemento 2
-3. elemento 3
-
-## Lista anidada
-- Elemento principal
-    - Elemento interno 1
-    - Elemento interno 2
-        - elemento 
-        - elemento
-    - elemento interno 3
-
-## Lista de tareas
-- [ ] tarea 1
-- [x] tarea 2
-- [ ] tarea 3 
-- [ ] \(Optional) tarea opcional 
-
-# Tablas
-
-## Tabla simple
-
-| título columna 1  | título columna 2|
-| ------------- | ------------- |
-| contenido 1  | contenido 2  |
-| contenido 3  | contenido 4  |
-
-
-## Tabla con formato en las columnas
-
-| Command | Description |
-| --- | --- |
-| `git status` | List all *new or modified* files |
-| `git diff` | Show file differences that **haven't been** staged |
-
-
-## Alinear contenido en tabla
-| Left-aligned | Center-aligned | Right-aligned |
-| :---         |     :---:      |          ---: |
-| git status   | git status     | git status    |
-| git diff     | git diff       | git diff      |
-
-# Imagenes
-
-Para insertar una imágen se usa la siguiente sintáxis:
-
-```
-![descripción de la imagen](url imagen)
-```
-El url de la imágen puede ser de la siguiente forma:
-
-- Si la imágen esta dentro de la misma rama se usa la siguiente sintaxis:
-    ```
-     ![description](/assets/images/imagen1.png)
-    ```
-    - Donde:
-        - la ruta */assets/images* esta dentro de la rama donde se encuentra el archivo **README.md**
-
-- Si la imágen esta en otra rama se usa la siguiente sintaxis:
-    ```
-    ![description](/../name_branch/assets/images/imagen1.png)
-    ```
-    - Donde: 
-        - La ruta */../name_branch/assets/images/* esta dentro de el mismo repositorio pero es una rama diferente. 
-
-- Si la imagén esta en internet se usa la siguiente sintaxis: 
-    ``` 
-     ![description](https://url/imagen.png)
-    ```
-- Si se quiere controlar el tamaño de la imágen se debe usar html, de la siguiente forma:
-    ``` html
-    <img src="url image" width="200" height="200">
-     
-    ```
-    - Donde: 
-        - En el html se pueden editar los siguiente elementos: 
-            - **url image**:  La ruta de la imágen
-            - **width**: Ancho de la imágen en pixeles
-            - **height**: Alto de la imágen en pixeles
-
-
-# Alertas
-
-> [!NOTE]
-> útil para agregar alguna nota extra
-
-> [!TIP]
-> útil para dar algún tip
-
-> [!IMPORTANT]
-> útil para algún recordatorio
-
-> [!WARNING]
-> útil para alertar a los alumnos
-
-> [!CAUTION]
-> útil para sugerencias y precauciones.
+- [Práctica 1. Quiz de reforzamiento.](./Capítulo1/README.md)
+- [Práctica 2.](./)
+  - Parte 1: Ordenando Datos.
+  - Parte 2. Filtrando Datos.
+  - Parte 3. Usando funciones de Bases de Datos.
+- [Práctica 3.1. Limpieza de Datos.](./)
+- [Práctica 3.2. Trabajando con funciones de limpieza de texto.](./)
+- [Práctica 3.3. Aplicando validación de datos.](./)
+- [Práctica 3.4. Aplicando validación de errores.](./)
+- [Práctica 4.1. Trabajando con Funciones Lógicas.](./)
+- [Práctica 4.2. Creando Gráficos.](./)
+- [Práctica 4.3. Modificar y formatear gráficos.](./)
+- [Práctica 5.1. Crear una Tabla Dinámica.](./)
+- [Práctica 5.2. Analizando los datos de la tabla dinámica.](./)
+- [Práctica 5.3. Presentación de datos con gráficos dinámicos.](./)
+- [Práctica 5.4. Filtrar datos utilizando segmentaciones (Slicers) y líneas de tiempo (Timelines).](./)
+- [Práctica 6.1. Consolidación de Ventas.](./)
+- [Práctica 6.2. Unificación de nombres en una celda utilizando Power Query.](./)
+- [Práctica 6.3. Cargar datos con Power BI.](./)
