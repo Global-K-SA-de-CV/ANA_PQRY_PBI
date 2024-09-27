@@ -1,4 +1,4 @@
-# Filtrar datos utilizando segmentaciones (Slicers) y líneas de tiempo (Timelines)
+# Práctica 5.4. Filtrar datos utilizando segmentaciones (Slicers) y líneas de tiempo (Timelines).
 
 ## Objetivo de la práctica:
 Al finalizar la práctica, serás capaz de:
