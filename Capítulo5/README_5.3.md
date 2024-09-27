@@ -1,4 +1,4 @@
-# Presentación de datos con gráficos dinámicos 
+# Práctica 5.3. Presentación de datos con gráficos dinámicos.
 
 ## Objetivo de la práctica:
 - Crear gráficos dinámicos (PivotCharts) a partir de tablas dinámicas (PivotTables) para representar visualmente datos complejos.
