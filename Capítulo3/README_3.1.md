@@ -1,0 +1,377 @@
+# Práctica 3.1. Limpieza de Datos.
+
+## Objetivo de la práctica:
+
+Al finalizar la práctica, serás capaz de:
+
+Identificar y eliminar registros duplicados en un conjunto de datos:
+
+- Aprender a detectar y eliminar filas duplicadas utilizando la función Eliminar duplicados en Excel. <br>
+- Comprender cómo seleccionar columnas relevantes para definir duplicados de manera precisa.<br>
+- Aprender a identificar celdas vacías dentro de un conjunto de datos utilizando diversas técnicas como filtros y formato condicional. <br>
+- Aplicar diferentes métodos para llenar las celdas vacías. <br>
+
+## Duración aproximada:
+- 15 minutos.
+
+## Instrucciones:
+
+### Tarea 1. Eliminar registro duplicados.
+
+**Paso 1.** Abre el archivo [Empleaados e invitados](<Empleados e invitados.xlsx>) y verifica que la hora de trabajo _Empleados_ está seleccionada. 
+
+**Paso 2.** Tienes las columnas de _Nombre_, _apellido_, _dirección_, _ciudad_, _estado_, _código postal_, _teléfono_ y _correo electrónico_. Asimismo, hay múltiples registros duplicados, para lo cual debes escoger la columna de _correo_ y _télefono_, ya que puedes tener nombres repetidos; es decir, no es la misma persona, sino el mismo apellido y la ciudad. 
+
+Dirígete a *Inicio > Formato condicional > Reglas para resltar Celdas > Valores duplicados*.
+
+![imagen 92](../images/img92.png)
+
+**Paso 3.** Da clic en **Aceptar** manteniendo el color de rojo oscuro para resaltar las celdas duplicadas. 
+
+![imagen 93](../images/img93.png)
+
+**Paso 4.** Revisa que se tienen distintos registros de color rojo, esto significa que hay duplicados en los datos. Selecciona de nuevo la columna _Teléfono_ y _Correo electrónico_. Posteriormente, da clic en *Datos > Eliminar duplicados*.
+
+De esta forma, se desplegará una ventana, donde deberás hacer clic en **Aceptar**. 
+
+![imagen 94](../images/img94.png)
+
+**Paso. 5** Revisa el mensaje de alerta que indica cuántos duplicados se eliminaron e inspecciona que ya no haya ninguna celda pintada de color rojo.
+
+![imagen 95](../images/img95.png)
+
+### Tarea 2. Completar la información.
+
+Se tiene los registros de los asistentes a un evento, los cuales serán utilizados más adelante para analizar, se busca ver con qué información se cuenta y con cuál no; sin emabrgo, no debe quedar niguna celda en blanco. 
+
+**Paso 1.** Dirígete a la pestaña _Asistentes_.
+
+![imagen 96](../images/img96.png)
+
+**Paso 2.** Selecciona la celda de **D** de _correo eléctronico_ la cual vas eliminar, ya que la información no te va a funcionar puesto que buscarás en el futuro contactar a los asistentes para más eventos. Da clic en *Incio > Buscar y seleccionar > Ir a especial*.
+
+Selecciona **Celdas en blanco**.
+
+![imagen 97](../images/img97.png)
+
+**Paso 3.** Una vez que has seleccionado las celdas en blanco, da clic derecho y después en **Eliminar**. Posteriormente, en el cuadro que se despliegue, haz clic en la opción **Toda la fila**.
+
+![imagen 98A](../images/img98A.png)
+
+**Paso 4.** Selecciona la columna _edad_ y presiona `Ctrl + B` en tu teclado. Esto desplegará una ventana y selecciona la pestaña **Reeplazar**.
+
+En el campo *Buscar*, déjalo en blanco para indicar que se van a buscar las celdas en blanco.
+
+En el campo **Remplazar con**, escribe el valor `0` y da clic en **Reemplazar todos**.
+
+![imagen 99](../images/img99.png)
+
+Saldrá un mensaje del número de reemplazos que se realizaron.
+
+![imagen 100](../images/img100.png)
+
+**Paso 5.** Haz lo mismo para la columna _nombre_ y _apellido_ de tal manera que en las celdas aparezca *N/A*; puedes ayudarte seleccionando ambas columnas en vez de una sola, tal como lo fue en el caso de la _edad_ y hacer el reemplado por **N/A**.
+
+### Resultado esperado:
+
+![imagen 101](../images/img101.png)
+
+# Trabajando con funciones de limpieza de texto
+
+## Objetivo de la práctica:
+Al finalizar la práctica, serás capaz de:
+- Utilizar las funciones IZQUIERDA, DERECHA, y EXTRAE para extraer partes específicas de texto dentro de una celda.
+
+- Aplicar la función CONCAT para combinar datos de múltiples celdas en una sola cadena de texto.
+
+
+## Duración aproximada:
+- 10 minutos.
+
+## Instrucciones 
+
+### Escenario:
+
+Eres un generalista de Recursos Humanos en Develetech Industries. Tu empresa tiene un gran campus con edificios de varios pisos. Para localizar a un empleado en cualquiera de los edificios del campus, se te ha pedido que extraigas varias partes de datos de un texto proporcionado por tu gerente. Los dos primeros caracteres del código representan la notación del campus, los siguientes dos caracteres representan el código del edificio, y los últimos cuatro caracteres representan la ubicación en el piso. Para hacer esto, utilizarás funciones de texto.
+
+### Tarea 1. Selecciona la hoja de cálculo Campus Information
+
+**Paso 1. Abre el archivo :
+[Campus information](<Campus information.xlsx>) 
+
+### Tarea 2.Extrae el código del campus, los dos primeros caracteres, del campo combinado.
+
+**Paso 1. Asegúrate de que la celda D2 esté seleccionada.
+
+**Paso 2. Selecciona __Fórmulas > Texto > IZQUIERDA._
+
+![Img57](../images/img57.png)
+
+**Paso 3. En el cuadro de texto Texto, escribe **C2* y presiona Tab.
+
+**Paso 4.  En el cuadro de texto Num_caracteres, escribe 2 y selecciona Aceptar.Verifica que el código del campus fue extraído.
+![Img58](../images/img58.png)
+
+### Tarea 3. Extrae el código del edificio, el tercer y cuarto caracteres, del campo combinado.
+
+**Paso 1. Selecciona la celda E2 
+
+**Paso 2. Selecciona __Fórmulas > Texto > EXTRAE._
+
+![Img59](../images/img59.png)
+
+**Paso 3. En el cuadro de texto __Texto_, escribe *C2* y presiona Tab.
+
+**Paso 4.  En el cuadro de texto __Posición_inicial_, escribe 3 y presiona Tab.
+
+**Paso 5. En el _Núm_de_caracteres_ escribe 2 y presiona Tab
+![Img60](../images/img60.png)
+
+### Tarea 4. Extrae el código del piso, los últimos cuatro caracteres, del campo combinado.
+
+**Paso 1. Selecciona la celda *F2.*
+
+**Paso 2.  Selecciona _Fórmulas > Texto > DERECHA._
+
+![Img61](../images/img61.png)
+
+**Paso 3. En el cuadro de texto Texto, escribe *C2* y presiona Tab.
+
+**Paso 4. En el cuadro de texto _Núm_caracteres_, escribe 4 y selecciona Aceptar.Verifica que el código del piso fue extraído.
+
+![Img62](../images/img62.png)
+ 
+### Tarea 5. Concatena el nombre y el apellido en un solo campo.
+
+**Paso 1.  Selecciona la celda G2.
+
+**Paso 2. Escribe =CONCAT y presiona Tab para usar la función de autocompletar de fórmulas.
+
+**Paso 2. En el argumento [text1], selecciona o escribe A2 y escribe una coma (,).
+
+**Paso 3.  En el argumento [text2], escribe "" y escribe una coma (,).
+
+Nota: Hay un espacio entre las dos comillas.
+
+**Paso 4. En el argumento [text3], selecciona o escribe B2 y escribe un paréntesis de cierre ) para completar la función y presiona Ctrl+Enter.
+
+![Img63](../images/img63.png)
+
+Verifica que el nombre del empleado aparezca en el formato de nombre completo.
+
+### Tarea 6.Relleno Automático en las filas restantes de datos. 
+
+**Paso 1. Selecciones las celdas D2:G2 y haz doble clic en el controlador de Relleno automático de la celda G2.
+Verifica que el campus, edificio, piso y nombres completos estén listados para todo el personal.
+
+![Img64](../images/img64.png)
+
+**Paso 2. Guarda los cambios y cierra el libro.
+### Resultado esperado
+
+![Img65](../images/img65.png)
+
+# Aplicando Validación de Datos
+
+## Objetivo de la práctica:
+Al finalizar la práctica, serás capaz de:
+- Configurar listas desplegables basadas en rangos definidos en otra hoja, facilitando la selección de datos predefinidos.
+
+- Personalizar Mensajes de Entrada y Alertas de Error
+* Definir límites numéricos mínimos y máximos (por ejemplo, entre 100 y 1,000) para las entradas permitidas en un rango de celdas.
+
+
+## Duración aproximada:
+- 15 minutos.
+
+## Instrucciones 
+
+### Escenario:
+
+Como gerente financiero de Develetech Industries, has estado recopilando los gastos de cada una de las regiones de la empresa. Quieres asegurarte de que los datos que ingreses en el libro de trabajo estén dentro de los parámetros correctos. Decides agregar validación de datos a varias celdas y rangos para prevenir errores en la entrada de datos.
+
+### Tarea 1. Abre el archivo 
+
+**Paso 1. Abre el archivo llamado :
+[Regional Expenses](<Regional Expenses.xlsx>) 
+
+### Tarea 2. Habilita y configura los ajustes para la validación de datos del reportero de gastos.
+
+**Paso 1. Verifica que la hoja de trabajo North American esté seleccionada y selecciona la celda B3.
+
+![Img102](../images/img102.png)
+
+**Paso 2. Selecciona *Datos → Validación de Datos.*
+
+**Paso 3. En el cuadro de diálogo de Validación de Datos, selecciona la pestaña Configuraciones si es necesario, y en la lista desplegable Permitir, selecciona Lista.
+
+![Img103](../images/img103.png)
+
+**Paso 4. Selecciona el campo Fuente, luego elige Fórmulas → Usar en Fórmula y selecciona los datos de la pestaña *Valid Data*
+
+Verifica que el campo Fuente sea Reported_By.
+
+![Img104](../images/img104.png)
+
+### Tarea 3. Configura el mensaje de entrada para la validación de datos.
+
+**Paso 1. En el cuadro de diálogo Validación de Datos, selecciona la pestaña *Mensaje de Entrada.*
+Verifica que la opción "Mostrar mensaje de entrada cuando se seleccione la celda" (casilla de verificación) esté seleccionada.
+
+**Paso 2. Selecciona el campo Título e ingresa: *Reportero de Gastos*.
+
+**Paso 3. Presiona Tab y en el campo Mensaje de Entrada, ingresa :Selecciona la persona que reporta el gasto.*
+
+Verifica los ajustes del Mensaje de Entrada.
+
+![Img105](../images/img105.png)
+
+### Tarea 4. Configura la alerta de error para la validación de datos.
+
+**Paso 1. En el cuadro de diálogo Validación de Datos, selecciona la pestaña: *Alerta de Error.* 
+
+Verifica que la casilla Mostrar alerta de error después de que se ingresa un dato no válido esté seleccionada.
+
+Verifica que el Estilo se quede en *Alto*
+
+**Paso 2.  Selecciona el campo Título e ingresa: *Reported By Error*. 
+
+**Paso 3. Selecciona el campo Mensaje de error e ingresa: Por favor selecciona un usuario de la lista.
+
+ Verifica los ajustes de Alerta de Error y selecciona Aceptar.
+
+ 
+![Img106](../images/img106.png)
+
+**Paso 4. Verifica que la celda B3 esté seleccionada y que el Mensaje de Entrada se muestre.
+
+**Paso 5.  Escribe tu nombre en la celda B3 y presiona Enter.
+
+**Paso 6. En el cuadro de diálogo Reported By Error, selecciona Cancelar.
+
+### Tarea 5. Aplica validación de datos a los valores de gastos.
+
+**Paso 1. Selecciona el rango B6:E9
+**Paso 2. Selecciona Datos → Validación de Datos.
+**Paso 3. En el cuadro de diálogo de Validación de Datos, selecciona la pestaña Configuraciones si es necesario, y en la lista desplegable Permitir, selecciona Decimal.
+
+**Paso 4. Verifica que en la lista desplegable Datos esté seleccionada la opción entre.
+**Paso 5. Selecciona el campo Mínimo e ingresa 100.
+**Paso 6.Selecciona el campo Máximo e ingresa 1000.
+
+![Img107](../images/img107.png)
+
+**Paso 7. Selecciona la pestaña Mensaje de Entrada y desmarca la casilla Mostrar mensaje de entrada cuando se selecciona la celda.
+
+![Img108](../images/img108.png)
+
+
+**Paso 8. Selecciona la pestaña Alerta de Error y luego en la lista desplegable Estilo, selecciona Advertencia.
+
+**Paso 9. Selecciona el campo Título e ingresa: **Gasto no válido.*
+
+**Paso 10. Selecciona el campo Mensaje de Error e ingresa:  *Ingrese un valor entre 100 y 1,000.*
+
+**Paso 11.  Selecciona Aceptar para aplicar los ajustes.
+
+![Img109](../images/img109.png)
+
+### Tarea 6.Probar la validación de datos.
+
+**Paso 1. Selecciona la celda B3 y selecciona la flecha desplegable que aparece a la derecha de la celda.
+**Paso 2. Selecciona Claire Gibbs.
+
+**Paso 3. Selecciona la celda E6, escribe 10,000 y presiona Enter.
+
+**Paso 4. Verifica que aparezca la alerta de error Gasto no válido.
+Gasto no válido
+Ingresa un valor entre 100 y 1,000.
+¿Continuar?
+
+**Paso 5. Selecciona Sí para ignorar la advertencia.
+
+### Resultado esperado
+
+![Img110](../images/img110.png)
+
+
+# Aplicando Validación de errores
+
+## Objetivo de la práctica:
+
+- Identificar y Corregir Datos Inválidos Utilizando Herramientas de Validación en Excel.
+ * Gestionar y Comprender Configuraciones de Validación de Datos
+
+* Detectar y Solucionar Errores en Fórmulas Utilizando la Comprobación de Errores de Excel
+
+
+## Duración aproximada:
+- 10 minutos.
+
+## Instrucciones 
+
+### Escenario:
+Continuando en tu rol como gerente financiero para Develetech Industries, has hecho todo lo posible por verificar que los datos ingresados para cada región sean correctos. Ahora deseas revisar datos inválidos y cualquier problema con las fórmulas. Decides señalar los datos inválidos y corregir las entradas incorrectas.
+
+
+*Seguir en el archivo llamado *Regional expenses*
+
+### Tarea 1. Buscar entradas de datos inválidos en la hoja de trabajo de Europa.
+
+**Paso 1. Selecciona la hoja de trabajo *European.*
+
+**Paso 2. En la pestaña Datos, selecciona la flecha desplegable en el botón Validación de datos y luego selecciona Rodear datos inválidos.
+
+![Img111](../images/img111.png)
+
+Verifica que hay dos celdas que contienen datos inválidos.
+
+![Img112](../images/img112.png)
+
+### Tarea 2. Corregir los datos inválidos en la hoja de trabajo.
+
+**Paso 1. Selecciona la celda B6 e ingresa 280.
+
+#### Nota: Después de ingresar el valor correcto, el círculo de datos inválidos debería desaparecer. Si no, eliminarás los círculos de validación más adelante en esta actividad.
+
+**Paso 2. Selecciona la celda B3 y selecciona la flecha desplegable que aparece a la derecha de la celda.
+
+**Paso 3. Selecciona Jerald Maldonado.
+
+#### Nota: Los ajustes de validación de datos de Mensaje de entrada y Alerta de error en la hoja de trabajo europea no son los mismos que los ajustes de validación de datos en la hoja de trabajo de América del Norte.
+
+![Img113](../images/img113.png)
+
+**Paso 4. En la pestaña Datos, selecciona la flecha desplegable en el botón Validación de datos y luego selecciona Borrar círculos de validación.
+
+![Img114](../images/img114.png)
+
+### Tarea 3. Revisar la hoja de trabajo en busca de errores en las fórmulas.
+
+**Paso 1.  Navega a la celda A1.
+
+**Paso 2. Selecciona Fórmulas -> Comprobación de Errores.
+Verifica que el cuadro de diálogo de Comprobación de Errores encontró un error en la celda B10.
+
+![Img115](../images/img115.png)
+
+**Paso 3. Selecciona Modificiar en la Barra de Fórmulas.
+
+**Paso 4. Corrige el error escribiendo un dos puntos (:) entre el rango B6. La fórmula debe ser:
+
+*=SUMA(B6:B9)*
+
+![Img116](../images/img116.png)
+
+**Paso 5. Presiona Enter.
+
+**Paso 6.  En el cuadro de diálogo Revisión de Errores, selecciona Reanudar.
+
+**Paso 7.  En el cuadro de diálogo de Microsoft Excel, verifica que la revisión de errores se ha completado y selecciona OK.
+
+![Img117](../images/img117.png)
+
+### Resultado esperado
+
+![Img118](../images/img118.png)
+
