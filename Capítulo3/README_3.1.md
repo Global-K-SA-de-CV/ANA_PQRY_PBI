@@ -18,7 +18,7 @@ Identificar y eliminar registros duplicados en un conjunto de datos:
 
 ### Tarea 1. Eliminar registro duplicados.
 
-**Paso 1.** Abre el archivo [Empleaados e invitados](<Empleados e invitados.xlsx>) y verifica que la hora de trabajo _Empleados_ está seleccionada. 
+**Paso 1.** Abre el archivo [Empleados e invitados](<Empleados e invitados.xlsx>) y verifica que la hora de trabajo _Empleados_ está seleccionada. 
 
 **Paso 2.** Tienes las columnas de _Nombre_, _apellido_, _dirección_, _ciudad_, _estado_, _código postal_, _teléfono_ y _correo electrónico_. Asimismo, hay múltiples registros duplicados, para lo cual debes escoger la columna de _correo_ y _télefono_, ya que puedes tener nombres repetidos; es decir, no es la misma persona, sino el mismo apellido y la ciudad. 
 
