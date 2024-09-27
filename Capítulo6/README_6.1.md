@@ -1,4 +1,4 @@
-# Consolidación de Ventas
+# Práctica 6.1. Consolidación de Ventas.
 
 
 ## Objetivo de la práctica:
