@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/4b65c56a-672a-434a-b461-a017f1a4538d)# Práctica 3.4. Aplicando validación de errores.
+# Práctica 3.4. Aplicando validación de errores.
 
 ## Objetivo de la práctica:
 
