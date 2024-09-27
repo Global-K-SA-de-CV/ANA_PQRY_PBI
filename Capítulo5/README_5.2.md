@@ -1,4 +1,4 @@
-# Analizando los datos de la tabla dinámica 
+# Práctica 5.2. Analizando los datos de la tabla dinámica.
 
 ## Objetivo de la práctica:
 - Modificar informes de tablas dinámicas para extraer y analizar datos específicos, como ventas por trimestre y región.
