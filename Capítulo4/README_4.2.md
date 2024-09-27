@@ -1,4 +1,4 @@
-# Práctica 4.1. Creando Gráficos.
+# Práctica 4.2. Creando Gráficos.
 
 ## Objetivo de la práctica:
 
