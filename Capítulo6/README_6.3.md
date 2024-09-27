@@ -1,4 +1,4 @@
-# Cargar datos con Power BI
+# Práctica 6.3. Cargar datos con Power BI.
 
 ## Objetivo de la práctica:
 Al finalizar la práctica, serás capaz de:
