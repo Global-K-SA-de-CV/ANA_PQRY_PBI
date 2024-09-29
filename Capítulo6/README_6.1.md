@@ -1,27 +1,27 @@
 # Práctica 6.1. Consolidación de Ventas.
 
-
 ## Objetivo de la práctica:
+
 Al finalizar la práctica, serás capaz de:
-- Automatizar la consolidación de archivos de ventas individuales en un solo archivo centralizado.
 
-- Permitir futuras actualizaciones automáticas, de manera que cuando Lucas, María o Marco añadan nuevas ventas a sus archivos, el archivo consolidado se actualice con facilidad.
-
-
+- Automatizar la consolidación de archivos de ventas individuales en un único archivo centralizado. <br>
+- Permitir futuras actualizaciones automáticas, de manera que, cuando Lucas, María o Marco añadan nuevas ventas a sus archivos, el archivo consolidado se actualice con facilidad. <br>
 
 ## Duración aproximada:
+
 - 15 minutos.
 
-## Escenario
+## Escenario:
 
-En una empresa de distribución, Lucas, María y Marco son responsables de diferentes regiones de ventas. Cada uno lleva un archivo de Excel donde registra sus ventas mensuales, especificando el nombre del cliente, la ciudad, el producto, la cantidad y el monto total. Sin embargo, la gerencia necesita consolidar esta información en un solo archivo para analizar las ventas globales y tomar decisiones estratégicas.
+En una empresa de distribución, Lucas, María y Marco son responsables de las ventas en diferentes regiones. Cada uno lleva un archivo de Excel en el que registra mensualmente sus ventas, especificando el nombre del cliente, la ciudad, el producto, la cantidad y el monto total. Sin embargo, la gerencia necesita consolidar esta información en un solo archivo para analizar las ventas globales y tomar decisiones estratégicas.
 
-El equipo quiere automatizar este proceso para ahorrar tiempo y evitar errores manuales, utilizando Power Query para consolidar los datos de ventas de Lucas, María y Marco en un solo archivo maestro.
+Para optimizar este proceso y reducir los errores manuales, el equipo ha decidido automatizar la consolidación de datos utilizando Power Query. Esto permitirá integrar de manera eficiente la información de ventas de Lucas, María y Marco en un archivo maestro.
 
-## Instrucciones 
+## Instrucciones:
 
-### Tarea 1.  Preparar los archivos individuales
-Paso 1. Descarga los siguientes archivos que traen los datos de ventas de María, Lucas y Marco
+### Tarea 1. Preparar los archivos individuales.
+
+**Paso 1.** Descarga los siguientes archivos, los cuales contienen los datos de ventas de María, Lucas y Marco.
 
 [Ventas Lucas](<Ventas Lucas.xlsx>)
 
@@ -29,60 +29,61 @@ Paso 1. Descarga los siguientes archivos que traen los datos de ventas de María
 
 [Ventas Maria](<Ventas Maria.xlsx>)
 
-Y guardalos en una carpeta que diga: _VENTAS 2023_
+Posteriormente, guárdalos en una carpeta con el nombre: _VENTAS 2023_.
 
 ![img227](../images/img227.png)
 
-### Tarea 2. Importar los datos con Power Query
-Paso 1. Abre un libro nuevo de excel y nombralo: *CONSOLIDADO*
+### Tarea 2. Importar los datos con Power Query.
+
+**Paso 1.** Abre un libro nuevo de Excel y nómbralo: *CONSOLIDADO*.
 
 ![img228](../images/img228.png)
 
-Paso 2. Ve a la pestaña de *Datos > Obtener datos > Desde archivo > Desde carpeta.*
+**Paso 2.** Dirígete a la pestaña de *Datos > Obtener datos > Desde archivo > Desde carpeta*.
 
-Paso 3. Selecciona la carpeta donde están almacenados los archivos de ventas de Lucas, María y Marco.
+**Paso 3.** Selecciona la carpeta donde están almacenados los archivos de ventas de Lucas, María y Marco.
 
 ![img229](../images/img229.png)
 
-Paso 4. Power Query te mostrará una vista previa de los archivos disponibles.
+**Paso 4.** Power Query mostrará una vista previa de los archivos disponibles.
 
 ![img230](../images/img230.png)
 
-Paso 5. Da clic en la parte de abajo donde dice combinar y selecciona *Combinar y transformar*
+**Paso 5.** En la parte inferior, da clic en **Combinar** y selecciona *Combinar y transformar*.
 
-Paso 6. Ve a la opcion de *Archivo de ejemplo* y selecciona algun archivo de los vendedores y en opciones de presentación selecciona la Hoja 1, haz lo mismo con todos los archivos de cada vendedor.
+**Paso 6.** Dirígete a la opción de *Archivo de ejemplo* y selecciona algún archivo de los vendedores y, en opciones de presentación, selecciona la Hoja 1. Posteriormente, haz lo mismo con cada uno de los archivos de cada vendedor.
 
 ![img231](../images/img231.png)
 
-Paso 7. Una vez que termines, selecciona Aceptar y se abrirá el editor de Power Query 
+**Paso 7.** Una vez que finalices, selecciona **Aceptar**. De esta forma, se abrirá el editor de Power Query.
 
 ![img232](../images/img232.png)
 
 
-### Tarea 3. Cargar los datos consolidados:
+### Tarea 3. Cargar los datos consolidados.
 
-Una vez que hayas consolidado y limpiado los datos, selecciona Cerrar y Cargar para cargar la tabla consolidada en una nueva hoja de Excel.
+Una vez que hayas consolidado y limpiado los datos, selecciona **Cerrar y Cargar** para cargar la tabla consolidada en una nueva hoja de Excel.
 
 ![img33A](../images/img33A.png)
 
-
-### Resultado esperado
-En esta sección se debe mostrar el resultado esperado de nuestro laboratorio
+### Resultado esperado:
 
 ![img234](../images/img234.png)
 
-### Tarea Extra. Agregar un nuevos datos
+### Tarea adicional: Agregar un nuevos datos.
 
-Paso 1. Ve al archivo de Ventas María y agrega un nuevo registro 
+**Paso 1.** Dirígete al archivo de _Ventas María_ y agrega un nuevo registro.
 
 ![img235](../images/img235.png)
 
-Paso 2. Guarda los cambio y cierra el archivo
+**Paso 2.** Guarda los cambio y cierra el archivo.
 
-Pao 3. Regresa al archivo CONSOLIDADO, ve a cualquier casilla de la tabla y en el menú veras la opción *Consulta -> Actualizar *
+**Paso 3.** Regresa al archivo _CONSOLIDADO_, dirígete a cualquier casilla de la tabla y, en el menú, podrás visualizar la opción *Consulta > Actualizar*.
 
 ![img236](../images/img236.png)
 
-### Resultado esperado
-Veras como se actualiza el consolidado con tu nuevo registro.
+### Resultado esperado:
+
+Como resultado, podrás observar cómo se actualiza el consolidado con tu nuevo registro.
+
 ![img237](../images/img237.png)
