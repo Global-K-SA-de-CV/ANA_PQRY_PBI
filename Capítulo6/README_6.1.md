@@ -51,7 +51,7 @@ Posteriormente, guárdalos en una carpeta con el nombre: _VENTAS 2023_.
 
 **Paso 5.** En la parte inferior, da clic en **Combinar** y selecciona *Combinar y transformar*.
 
-**Paso 6.** Dirígete a la opción de *Archivo de ejemplo* y selecciona algún archivo de los vendedores y, en opciones de presentación, selecciona la Hoja 1. Posteriormente, haz lo mismo con cada uno de los archivos de cada vendedor.
+**Paso 6.** Dirígete a la opción de *Archivo de ejemplo*, selecciona algún archivo de los vendedores y, en opciones de presentación, selecciona la _Hoja 1_. Posteriormente, realiza lo mismo con cada uno de los archivos de cada vendedor.
 
 ![img231](../images/img231.png)
 
