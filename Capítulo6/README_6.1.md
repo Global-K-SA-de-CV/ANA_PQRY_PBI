@@ -62,7 +62,7 @@ Posteriormente, guárdalos en una carpeta con el nombre: _VENTAS 2023_.
 
 ### Tarea 3. Cargar los datos consolidados.
 
-Una vez que hayas consolidado y limpiado los datos, selecciona **Cerrar y Cargar** para cargar la tabla consolidada en una nueva hoja de Excel.
+Una vez que hayas consolidado y limpiado los datos, selecciona **Cerrar y cargar** para cargar la tabla consolidada en una nueva hoja de Excel.
 
 ![img33A](../images/img33A.png)
 
