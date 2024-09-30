@@ -100,3 +100,9 @@ Estás satisfecho con los informes de la tabla dinámica que has creado. Ahora d
 ### Resultado esperado:
 
 ![img208A](../images/img208A.png)
+
+## [Menú principal](../README.md)
+
+## [Práctica 5.1. Crear una Tabla Dinámica.](../Capítulo5/README_5.1.md)
+
+## [Práctica 5.3. Presentación de datos con gráficos dinámicos.](../Capítulo5/README_5.3.md)
