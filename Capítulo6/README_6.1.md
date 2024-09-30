@@ -87,3 +87,9 @@ Una vez que hayas consolidado y limpiado los datos, selecciona **Cerrar y cargar
 Como resultado, podrás observar cómo se actualiza el consolidado con tu nuevo registro.
 
 ![img237](../images/img237.png)
+
+## [Menú principal](../README.md)
+
+## [Práctica 5.4. Filtrar datos utilizando segmentaciones (Slicers) y líneas de tiempo (Timelines).](../Capítulo5/README_5.4.md)
+
+## [Práctica 6.2. Unificación de nombres en una celda utilizando Power Query.](../Capítulo6/README_6.2.md)
