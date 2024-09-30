@@ -125,3 +125,10 @@ Ingresa un valor entre 100 y 1,000. <br>
 ### Resultado esperado:
 
 ![Img110](../images/img110.png)
+
+## [Menú principal](../README.md)
+
+## [Práctica 3.2. Trabajando con funciones de limpieza de texto.](../Capítulo3/README_3.2.md)
+
+## [Práctica 3.4. Aplicando validación de errores.](../Capítulo3/README_3.4.md)
+
