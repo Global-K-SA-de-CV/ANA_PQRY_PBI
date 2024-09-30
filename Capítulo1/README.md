@@ -21,3 +21,7 @@ Al finalizar la práctica, serás capaz de:
 ### Resultado esperado:
 
 Al finalizar el quiz, visualizarás los puntos obtenidos por todas las respuestas correctas que obtuviste y un número de posición. 
+
+### [Menú principal](../README.md)
+
+### [Práctica 1. Quiz de reforzamiento.](../Capítulo1/README.md)
