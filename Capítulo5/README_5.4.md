@@ -73,7 +73,12 @@ Estás satisfecho con las modificaciones realizadas en los informes de tablas di
 
 Verifica que, tanto la tabla dinámica (PivotTable) como el gráfico dinámico (PivotChart), se actualicen para mostrar las ventas totales de Anderson en Texas (TX) en el cuarto trimestre (Q4), observando que Anderson no tiene ventas en Nuevo México (NM).
 
-
 ### Resultado esperado:
 
 ![img226](../images/img226.png)
+
+## [Menú principal](../README.md)
+
+## [Práctica 5.3. Presentación de datos con gráficos dinámicos.](../Capítulo5/README_5.3.md)
+
+## [Práctica 6.1. Consolidación de Ventas.](../Capítulo6/README_6.1.md)
