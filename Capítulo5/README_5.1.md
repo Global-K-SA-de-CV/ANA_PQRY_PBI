@@ -75,3 +75,10 @@ Abre el siguiente archivo: [Sales Data](<Sales Data.xlsx>).
 ### Resultado esperado:
 
 ![img198](../images/img198.png)
+
+## [Menú principal](../README.md)
+
+## [Práctica 4.3. Modificar y formatear gráficos.](../Capítulo4/README_4.3.md)
+
+## [Práctica 5.2. Analizando los datos de la tabla dinámica.](../Capítulo5/README_5.2.md)
+
