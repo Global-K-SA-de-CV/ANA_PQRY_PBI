@@ -95,3 +95,10 @@ Eres un generalista de Recursos Humanos en Develetech Industries. Tu empresa tie
 ### Resultado esperado:
 
 ![Img65](../images/img65.png)
+
+## [Menú principal](../README.md)
+
+## [Práctica 3.1. Limpieza de Datos.](../Capítulo3/README_3.1.md)
+
+## [Práctica 3.3. Aplicando validación de datos.](../Capítulo3/README_3.3.md)
+
