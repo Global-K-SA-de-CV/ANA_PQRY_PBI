@@ -44,11 +44,11 @@ Eres un generalista de recursos humanos en Develtech Industries y tu gerente te 
 
 ![Img70](../images/img70.png)
  
- ### Tarea 3. Ordenar la lista de empleados por *Apellido*, luego por _Departamento_ y al último por _Extensión_.
+### Tarea 3. Ordenar la lista de empleados por *Apellido*, luego por _Departamento_ y al último por _Extensión_.
 
- **Paso 1.** Selecciona _Datos_ y después _Ordenar_.
+**Paso 1.** Selecciona _Datos_ y después _Ordenar_.
 
- **Paso 2.** Da clic en la flecha desplegable de _Ordenar por_ y selecciona _Apellido_.
+**Paso 2.** Da clic en la flecha desplegable de _Ordenar por_ y selecciona _Apellido_.
 
 **Paso 3.** Selecciona _Agregar Nivel_.
 
