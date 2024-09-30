@@ -24,4 +24,4 @@ Al finalizar el quiz, visualizarás los puntos obtenidos por todas las respuesta
 
 ### [Menú principal](../README.md)
 
-### [Práctica 1. Quiz de reforzamiento.](../Capítulo1/README.md)
+### [Práctica 2.](../Capítulo2/README.md)
