@@ -113,3 +113,9 @@ Estás satisfecho con el progreso de tu hoja de cálculo de bonificaciones. Ahor
 ### Resultado esperado:
 
 ![Img51](../images/img51.png)
+
+## [Menú principal](../README.md)
+
+## [Práctica 3.4. Aplicando validación de errores.](../Capítulo3/README_3.4.md)
+
+## [Práctica 4.2. Creando Gráficos.](../Capítulo4/README_4.2.md)
