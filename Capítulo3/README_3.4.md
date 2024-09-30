@@ -80,3 +80,8 @@ Continuando en tu rol como gerente financiero para Develetech Industries, has he
 
 ![Img118](../images/img118.png)
 
+## [Menú principal](../README.md)
+
+## [Práctica 3.3. Aplicando validación de datos.](../Capítulo3/README_3.3.md)
+
+## [Práctica 4.1. Trabajando con Funciones Lógicas.](../Capítulo4/README_4.1.md)
