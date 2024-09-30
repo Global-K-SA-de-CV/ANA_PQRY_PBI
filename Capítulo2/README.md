@@ -244,8 +244,8 @@ Como gerente de ventas en Devletech Industries, deseas analizar las cifras de ve
 ![Img91](../images/img91.png)
 
 
-### [Menú principal](../README.md)
+## [Menú principal](../README.md)
 
-### [Práctica 1. Quiz de reforzamiento.](../Capítulo1/README.md)
+## [Práctica 1. Quiz de reforzamiento.](../Capítulo1/README.md)
 
-### [Práctica 3.1. Limpieza de Datos.](../Capítulo3/README_3.1.md)
+## [Práctica 3.1. Limpieza de Datos.](../Capítulo3/README_3.1.md)
