@@ -61,3 +61,7 @@ Da clic en la flecha hacia abajo que está en el elemento del Eje Y. Finalmente,
 ### Resultado esperado:
 
 ![img242](../images/img242.png)
+
+## [Menú principal](../README.md)
+
+## [Práctica 6.2. Unificación de nombres en una celda utilizando Power Query.](../Capítulo6/README_6.2.md)
