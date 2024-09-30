@@ -89,3 +89,8 @@ Estás satisfecho con las modificaciones que realizaste en los informes de tabla
 
 ![img216](../images/img216.png)
 
+## [Menú principal](../README.md)
+
+## [Práctica 5.2. Analizando los datos de la tabla dinámica.](../Capítulo5/README_5.2.md)
+
+## [Práctica 5.4. Filtrar datos utilizando segmentaciones (Slicers) y líneas de tiempo 
