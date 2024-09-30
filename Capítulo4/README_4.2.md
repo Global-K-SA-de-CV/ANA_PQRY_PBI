@@ -74,3 +74,9 @@ Ahora, como analista de marketing para Develtech Industries, has recibido el lib
  ![img148](../images/img148.png) <br>
  ![img149](../images/img149.png) <br>
  ![img150](../images/img150.png) <br>
+
+## [Menú principal](../README.md)
+
+## [Práctica 4.1. Trabajando con Funciones Lógicas.](../Capítulo4/README_4.1.md)
+
+## [Práctica 4.3. Modificar y formatear gráficos.](../Capítulo4/README_4.3.md)
