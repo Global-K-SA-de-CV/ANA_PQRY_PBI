@@ -128,3 +128,9 @@ Como analista de marketing, has compartido tus gráficos iniciales con tu gerent
 ![img171](../images/img171.png)
 
 ![img172](../images/img172.png)
+
+## [Menú principal](../README.md)
+
+## [Práctica 4.2. Creando Gráficos.](../Capítulo4/README_4.2.md)
+
+## [Práctica 5.1. Crear una Tabla Dinámica.](../Capítulo5/README_5.1.md)
