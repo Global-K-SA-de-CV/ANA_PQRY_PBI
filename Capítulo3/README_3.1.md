@@ -75,3 +75,9 @@ Saldrá un mensaje del número de reemplazos que se realizaron.
 ### Resultado esperado:
 
 ![imagen 101](../images/img101.png)
+
+## [Menú principal](../README.md)
+
+## [Práctica 2.](../Capítulo2/README.md)
+
+## [Práctica 3.2. Trabajando con funciones de limpieza de texto.](../Capítulo3/README_3.2.md)
