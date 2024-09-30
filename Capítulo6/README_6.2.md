@@ -72,3 +72,9 @@ Podrás observar las columnas separadas de _Nombre_, _Apellido Paterno_ y _Apell
 ### Resultado esperado:
 
 ![img255](../images/img255.png)
+
+## [Menú principal](../README.md)
+
+## [Práctica 6.1. Consolidación de Ventas.](../Capítulo6/README_6.1.md)
+
+## [Práctica 6.3. Cargar datos con Power BI.](../Capítulo6/README_6.3.md)
