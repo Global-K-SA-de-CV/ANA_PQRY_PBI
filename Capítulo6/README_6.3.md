@@ -1,67 +1,80 @@
-# Práctica 6.3. Cargar datos con Power BI.
+# Práctica 6.2. Unificación de nombres en una celda utilizando Power Query.
+
 
 ## Objetivo de la práctica:
 
 Al finalizar la práctica, serás capaz de:
 
-- Cargar datos a Power BI Desktop. <br>
-- Crear un gráfico en Power BI.
+- Aprender a utilizar Power Query para combinar columnas de texto en una sola celda y formatear los datos de manera eficiente. En este caso, unificar los campos de Nombre, Apellido Paterno y Apellido Materno en una nueva columna denominada _Nombre Completo_.
 
 ## Duración aproximada:
 
-- 15 minutos.
+- 10 minutos.
 
 ## Escenario:
 
-Imagina que estás a punto de jubilarte y estás considerando mudarte a un lugar con abundante sol, bajos índices de delincuencia y acceso a servicios médicos de alta calidad. O, tal vez eres un analista de datos que necesita esta información para ayudar a tus clientes a tomar decisiones estratégicas. Por ejemplo, podrías asistir a un distribuidor de gafas de sol a dirigir su promoción hacia las zonas donde el sol brilla con mayor frecuencia.
+Tienes una base de datos de clientes donde los campos Nombre, Apellido Paterno y Apellido Materno están separados en distintas columnas. Sin embargo, para algunos informes, necesitas consolidar el nombre completo de cada cliente en una sola celda. En lugar de hacerlo manualmente, utilizarás Power Query para automatizar este proceso, combinando estos campos en una nueva columna llamada Nombre Completo.
 
-## Instrucciones:
+Este procedimiento es útil en situaciones comunes, como la preparación de listas de correos electrónicos, informes de clientes o el análisis de datos, donde es necesario presentar el nombre completo de cada persona de manera clara y organizada.
 
-Utilizar el archivo llamado: [Estados para la jubilación 2022](< Estados para la jubilación 2022.xlsx>).
+### Tarea 1. Cargar los datos.
 
-### Tarea 1. Obtener datos.
+**Paso 1.** Descarga y guarda el siguiente archivo llamado: [Registros clientes](<Registros clientes.csv>), el cual está en formato csv.
 
-**Paso 1.** Dentro de la máquina virtual encontrarás instalado el **Power BI Desktop**; por favor, inicia la aplicación.
+Podrás observar las columnas separadas de _Nombre_, _Apellido Paterno_ y _Apellido Materno_.
 
-**Paso 2.** Selecciona la pestaña **Inicio** de la cinta de opciones y luego selecciona _Obtener datos > Libro de Excel_.
+**Paso 2.** Dirígete a la pestaña _Datos > Obtener datos > Desde archivo > De texto/CSV_.
 
-![img238](../images/img238.png)
+![img243A](../images/img243A.png)
 
-### Tarea 2. Cargar datos.
+**Paso 3.** Selecciona el archivo *Registro Clientes*, el cual contiene los nombres, apellidos paternos y maternos.
 
-**Paso 1.** Ahora que has seleccionado la opción de *Libro de Excel*, ya puedes realizar la carga de datos en Power BI Desktop. Para esto, aparecerá una ventana donde puedes observar las opciones que tienes para cargar los datos, **Datos** o **Sheet1**.
+**Paso 4.** En el panel del Navegador, selecciona la tabla que contiene estos datos y haz clic en **Transformar datos** para abrir el editor de Power Query.
 
-En este caso, lo recomendable es utilizar la opción de Tabla ‘Datos’ con el fin de evitar un proceso de depuración que puede requerir al importar desde la hoja de Excel. Observa que al seleccionar cualquiera de las dos opciones, podrás tener una vista previa de los datos.
+![img244](../images/img244.png)
 
-Selecciona la tabla ‘Datos’ y luego haz clic en el botón amarillo que dice **Cargar**.
+### Tarea 2. Combinar columnas.
 
-![img239](../images/img239.png)
+**Paso 1.** En el editor de Power Query, haz clic en el cuadro izquierdo que aparece a lado de la _Column1_ y selecciona la opción de **Usar la primera fila como encabezado**.
 
-### Tarea 3. Analizar los datos con lo que dispones en la pestaña de datos.
+![img248](../images/img248.png)
 
-**Paso 1.** Ya que has realizado la carga de datos, puedes analizar los datos en la pestaña de datos con el fin de hacer una primera impresión del tipo de datos, valores, categoría y formatos.
+**Paso 2.** Selecciona las 3 columnas que traen información del nombre y los apellidos. 
 
-![img240](../images/img240.png)
+![img245A](../images/img245A.png)
 
-### Tarea 4. Crear un gráfico para el análisis de datos.
+**Paso 3.** Da clic derecho y selecciona **Combinar columnas**.
 
-Ahora, en la pestaña de informe, puedes realizar un análisis rápido de los datos para visualizar el promedio de puntaje según las regiones de Estados Unidos. El gráfico más adecuado para este análisis es un gráfico de columnas apiladas.
+![img246A](../images/img246A.png)
 
-**Paso 1.** Regresa a la vista de informe y selecciona el segundo ícono **"Gráfico de columnas apiladas"**.
+**Paso 4.** Elige como separador la opción de **Espacio** y, en _Nuevo nombre de columna_, escribe: `Nombre completo`.
 
-**Paso 2.** Del panel de Datos que se encuentra en el costado derecho, selecciona los campos: 
+![img247A](../images/img247A.png)
 
-- Puntuación General. <br>
-- Región.
+**Paso 5.** Selecciona la columa **ID**, da clic derecho y remuévela.
 
-Da clic en la flecha hacia abajo que está en el elemento del Eje Y. Finalmente, selecciona **Promedio** en la lista que aparece.
+![img251](../images/img251.png)
 
-![img241](../images/img241.png)
+**Paso 6.** Selecciona la columna *Nombre completo* y da clic en **Cerrar y cargar en**.
+
+![img253](../images/img253.png)
+
+**Paso 7.** Deja marcado la opción _Tabla_; adicionalemente, marca la opción de Hoja de cálculo existente, selecciona la celda **E1** y da clic en **Aceptar**.
+
+![img252](../images/img252.png)
+
+**Paso 8.** Como resultado, obtendrás la nueva columna de nombre completo, únicamente dale el mismo formato que la tabla original. 
+
+![img254](../images/img254.png)
+
+**Paso 9.** Guarda los cambios y cierra el archivo.
 
 ### Resultado esperado:
 
-![img242](../images/img242.png)
+![img255](../images/img255.png)
 
 ## [Menú principal](../README.md)
 
-## [Práctica 6.2. Unificación de nombres en una celda utilizando Power Query.](../Capítulo6/README_6.2.md)
+## [Práctica 6.1. Consolidación de Ventas.](../Capítulo6/README_6.1.md)
+
+## [Práctica 6.3. Cargar datos con Power BI.](../Capítulo6/README_6.3.md)

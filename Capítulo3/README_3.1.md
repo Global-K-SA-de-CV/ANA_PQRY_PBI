@@ -22,7 +22,7 @@ Identificar y eliminar registros duplicados en un conjunto de datos:
 
 **Paso 2.** Tienes las columnas de _Nombre_, _apellido_, _dirección_, _ciudad_, _estado_, _código postal_, _teléfono_ y _correo electrónico_. Asimismo, hay múltiples registros duplicados, para lo cual debes escoger la columna de _correo_ y _télefono_, ya que puedes tener nombres repetidos; es decir, no es la misma persona, sino el mismo apellido y la ciudad. 
 
-Dirígete a *Inicio > Formato condicional > Reglas para resltar Celdas > Valores duplicados*.
+Dirígete a *Inicio > Formato condicional > Reglas para resaltar Celdas > Valores duplicados*.
 
 ![imagen 92](../images/img92.png)
 
