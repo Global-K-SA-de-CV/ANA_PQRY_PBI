@@ -1,11 +1,12 @@
-# Práctica 6.2. Unificación de nombres en una celda utilizando Power Query.
+# Práctica 6.3. Trabajando con Power Pivot
 
 
 ## Objetivo de la práctica:
 
 Al finalizar la práctica, serás capaz de:
 
-- Aprender a utilizar Power Query para combinar columnas de texto en una sola celda y formatear los datos de manera eficiente. En este caso, unificar los campos de Nombre, Apellido Paterno y Apellido Materno en una nueva columna denominada _Nombre Completo_.
+- Comprender el proceso de agregar y relacionar múltiples tablas en Power Pivot para crear un modelo de datos integrado.
+- Aprender a usar Power Pivot para crear una tabla dinámica basada en datos relacionados de múltiples tablas.
 
 ## Duración aproximada:
 
@@ -13,65 +14,79 @@ Al finalizar la práctica, serás capaz de:
 
 ## Escenario:
 
-Tienes una base de datos de clientes donde los campos Nombre, Apellido Paterno y Apellido Materno están separados en distintas columnas. Sin embargo, para algunos informes, necesitas consolidar el nombre completo de cada cliente en una sola celda. En lugar de hacerlo manualmente, utilizarás Power Query para automatizar este proceso, combinando estos campos en una nueva columna llamada Nombre Completo.
+Eres un analista de datos en una empresa que maneja grandes volúmenes de información sobre ventas, productos y tiendas. Recientemente, has notado que el manejo de estos datos en hojas de Excel individuales resulta lento y complicado. Por ello, decide usar Power Pivot para integrar y relacionar estas tablas, permitiendo un análisis más fluido y eficiente.
 
-Este procedimiento es útil en situaciones comunes, como la preparación de listas de correos electrónicos, informes de clientes o el análisis de datos, donde es necesario presentar el nombre completo de cada persona de manera clara y organizada.
 
-### Tarea 1. Cargar los datos.
+### Tarea 1. Agregar tablas al modelo de datos
 
-**Paso 1.** Descarga y guarda el siguiente archivo llamado: [Registros clientes](<Registros clientes.csv>), el cual está en formato csv.
+**Paso 1.** Descarga y guarda el siguiente archivo llamado: [PRACTICA POWER PIVOT ](<PRACTICA POWER PIVOT.xlsx>).
 
-Podrás observar las columnas separadas de _Nombre_, _Apellido Paterno_ y _Apellido Materno_.
+**Paso 2.** Dirígete a la pestaña _Ventas_, posteriormente en la barra superior selecciona _Power Pivot_ y selecciona _Agregar a modelo de datos_
 
-**Paso 2.** Dirígete a la pestaña _Datos > Obtener datos > Desde archivo > De texto/CSV_.
+![img256](../images/img256.png)
 
-![img243A](../images/img243A.png)
+Verás que se despliega el editor de Power Pivot
 
-**Paso 3.** Selecciona el archivo *Registro Clientes*, el cual contiene los nombres, apellidos paternos y maternos.
+![img257](../images/img257.png)
 
-**Paso 4.** En el panel del Navegador, selecciona la tabla que contiene estos datos y haz clic en **Transformar datos** para abrir el editor de Power Query.
+**Paso 3** 
+minimizar la pantalla y hacer lo mismo con la pestaña de _Tiendas_ y _Productos
 
-![img244](../images/img244.png)
+![img258](../images/img258.png)
 
-### Tarea 2. Combinar columnas.
+Veras en el editor de Power Pivot las tres pestañas de cada modelo de datos agregado.
 
-**Paso 1.** En el editor de Power Query, haz clic en el cuadro izquierdo que aparece a lado de la _Column1_ y selecciona la opción de **Usar la primera fila como encabezado**.
+![img259](../images/img259.png)
 
-![img248](../images/img248.png)
+### Tarea 2: Relacionar las tablas en Power Pivot
 
-**Paso 2.** Selecciona las 3 columnas que traen información del nombre y los apellidos. 
+**Paso 1.** Ir a la vista de diagrama:
+* En la ventana de Power Pivot, haz clic en Vista de diagrama.
+* Aparecerán las tres tablas cargadas con sus encabezados visibles.
 
-![img245A](../images/img245A.png)
+![img260](../images/img260.png)
 
-**Paso 3.** Da clic derecho y selecciona **Combinar columnas**.
+**Paso 2** Relacionar la tabla de Ventas con la de Productos:
 
-![img246A](../images/img246A.png)
+* Identifica la columna Código de Producto en ambas tablas.
+* Arrastra la columna Código de Producto de la tabla de Ventas hacia la columna correspondiente en la tabla de Productos.
 
-**Paso 4.** Elige como separador la opción de **Espacio** y, en _Nuevo nombre de columna_, escribe: `Nombre completo`.
+_Nota_: Considera que puedes arrastrar las tablas según tu preferencia. 
 
-![img247A](../images/img247A.png)
+* Verifica que la relación se haya creado.
 
-**Paso 5.** Selecciona la columa **ID**, da clic derecho y remuévela.
+![img261](../images/img261.png)
+ 
+**Paso 3** Relacionar la tabla de Ventas con la de Tiendas:
 
-![img251](../images/img251.png)
+* Encuentra la columna Empleado en la tabla de Ventas y la columna Empleado en la tabla de Tiendas.
+* Arrastra la columna Empleado de la tabla de Ventas hacia la columna en la tabla de Tiendas.
 
-**Paso 6.** Selecciona la columna *Nombre completo* y da clic en **Cerrar y cargar en**.
+![img262](../images/img262.png)
+* Asegúrate de que la relación sea correcta.
 
-![img253](../images/img253.png)
+### Tarea 3: Crear una tabla dinámica en Power Pivot
 
-**Paso 7.** Deja marcado la opción _Tabla_; adicionalemente, marca la opción de Hoja de cálculo existente, selecciona la celda **E1** y da clic en **Aceptar**.
+**Paso 1.** Insertar una tabla dinámica:
 
-![img252](../images/img252.png)
+* En la ventana de Power Pivot y selecciona Tabla dinámica en la parte superior.
 
-**Paso 8.** Como resultado, obtendrás la nueva columna de nombre completo, únicamente dale el mismo formato que la tabla original. 
+![img263](../images/img263.png)
 
-![img254](../images/img254.png)
+* Elige Nueva hoja de cálculo para que la tabla dinámica se inserte en una hoja nueva en Excel.
 
-**Paso 9.** Guarda los cambios y cierra el archivo.
+
+**Paso 2.** Agregar campos a la tabla dinámica:
+
+* En la lista de campos de la tabla dinámica, selecciona Tienda de la tabla de Tiendas y colócala en el área de Filas.
+
+* Agrega Descripción del Producto de la tabla de Productos al área de Filas debajo de Tienda.
+
+* Añade Unidades de la tabla de Ventas al área de Valores.
+![img264](../images/img264.png)
 
 ### Resultado esperado:
-
-![img255](../images/img255.png)
+![img265](../images/img265.png)
 
 ## [Menú principal](../README.md)
 
