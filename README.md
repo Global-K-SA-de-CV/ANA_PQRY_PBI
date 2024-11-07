@@ -28,4 +28,5 @@ El enfoque del curso es práctico, con ejemplos y actividades que permiten aplic
 - [Práctica 5.4. Filtrar datos utilizando segmentaciones (Slicers) y líneas de tiempo (Timelines).](./Capítulo5/README_5.4.md)
 - [Práctica 6.1. Consolidación de Ventas.](./Capítulo6/README_6.1.md)
 - [Práctica 6.2. Unificación de nombres en una celda utilizando Power Query.](./Capítulo6/README_6.2.md)
-- [Práctica 6.3. Cargar datos con Power BI.](./Capítulo6/README_6.3.md)
+- [Práctica 6.3. Trabajando con Power Pivot.](./Capítulo6/README_6.3.md)
+- [Práctica 6.4. Cargar datos con Power BI.](/Capítulo6/README_6.4.md)
