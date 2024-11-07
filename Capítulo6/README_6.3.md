@@ -1,67 +1,95 @@
-# Práctica 6.3. Cargar datos con Power BI.
+# Práctica 6.3. Trabajando con Power Pivot
+
 
 ## Objetivo de la práctica:
 
 Al finalizar la práctica, serás capaz de:
 
-- Cargar datos a Power BI Desktop. <br>
-- Crear un gráfico en Power BI.
+- Comprender el proceso de agregar y relacionar múltiples tablas en Power Pivot para crear un modelo de datos integrado.
+- Aprender a usar Power Pivot para crear una tabla dinámica basada en datos relacionados de múltiples tablas.
 
 ## Duración aproximada:
 
-- 15 minutos.
+- 10 minutos.
 
 ## Escenario:
 
-Imagina que estás a punto de jubilarte y estás considerando mudarte a un lugar con abundante sol, bajos índices de delincuencia y acceso a servicios médicos de alta calidad. O, tal vez eres un analista de datos que necesita esta información para ayudar a tus clientes a tomar decisiones estratégicas. Por ejemplo, podrías asistir a un distribuidor de gafas de sol a dirigir su promoción hacia las zonas donde el sol brilla con mayor frecuencia.
+Eres un analista de datos en una empresa que maneja grandes volúmenes de información sobre ventas, productos y tiendas. Recientemente, has notado que el manejo de estos datos en hojas de Excel individuales resulta lento y complicado. Por ello, decide usar Power Pivot para integrar y relacionar estas tablas, permitiendo un análisis más fluido y eficiente.
 
-## Instrucciones:
 
-Utilizar el archivo llamado: [Estados para la jubilación 2022](< Estados para la jubilación 2022.xlsx>).
+### Tarea 1. Agregar tablas al modelo de datos
 
-### Tarea 1. Obtener datos.
+**Paso 1.** Descarga y guarda el siguiente archivo llamado: [PRACTICA POWER PIVOT ](<PRACTICA POWER PIVOT.xlsx>).
 
-**Paso 1.** Dentro de la máquina virtual encontrarás instalado el **Power BI Desktop**; por favor, inicia la aplicación.
+**Paso 2.** Dirígete a la pestaña _Ventas_, posteriormente en la barra superior selecciona _Power Pivot_ y selecciona _Agregar a modelo de datos_
 
-**Paso 2.** Selecciona la pestaña **Inicio** de la cinta de opciones y luego selecciona _Obtener datos > Libro de Excel_.
+![img256](../images/img256.png)
 
-![img238](../images/img238.png)
+Verás que se despliega el editor de Power Pivot
 
-### Tarea 2. Cargar datos.
+![img257](../images/img257.png)
 
-**Paso 1.** Ahora que has seleccionado la opción de *Libro de Excel*, ya puedes realizar la carga de datos en Power BI Desktop. Para esto, aparecerá una ventana donde puedes observar las opciones que tienes para cargar los datos, **Datos** o **Sheet1**.
+**Paso 3** 
+minimizar la pantalla y hacer lo mismo con la pestaña de _Tiendas_ y _Productos
 
-En este caso, lo recomendable es utilizar la opción de Tabla ‘Datos’ con el fin de evitar un proceso de depuración que puede requerir al importar desde la hoja de Excel. Observa que al seleccionar cualquiera de las dos opciones, podrás tener una vista previa de los datos.
+![img258](../images/img258.png)
 
-Selecciona la tabla ‘Datos’ y luego haz clic en el botón amarillo que dice **Cargar**.
+Veras en el editor de Power Pivot las tres pestañas de cada modelo de datos agregado.
 
-![img239](../images/img239.png)
+![img259](../images/img259.png)
 
-### Tarea 3. Analizar los datos con lo que dispones en la pestaña de datos.
+### Tarea 2: Relacionar las tablas en Power Pivot
 
-**Paso 1.** Ya que has realizado la carga de datos, puedes analizar los datos en la pestaña de datos con el fin de hacer una primera impresión del tipo de datos, valores, categoría y formatos.
+**Paso 1.** Ir a la vista de diagrama:
+* En la ventana de Power Pivot, haz clic en Vista de diagrama.
+* Aparecerán las tres tablas cargadas con sus encabezados visibles.
 
-![img240](../images/img240.png)
+![img260](../images/img260.png)
 
-### Tarea 4. Crear un gráfico para el análisis de datos.
+**Paso 2** Relacionar la tabla de Ventas con la de Productos:
 
-Ahora, en la pestaña de informe, puedes realizar un análisis rápido de los datos para visualizar el promedio de puntaje según las regiones de Estados Unidos. El gráfico más adecuado para este análisis es un gráfico de columnas apiladas.
+* Identifica la columna Código de Producto en ambas tablas.
+* Arrastra la columna Código de Producto de la tabla de Ventas hacia la columna correspondiente en la tabla de Productos.
 
-**Paso 1.** Regresa a la vista de informe y selecciona el segundo ícono **"Gráfico de columnas apiladas"**.
+_Nota_: Considera que puedes arrastrar las tablas según tu preferencia. 
 
-**Paso 2.** Del panel de Datos que se encuentra en el costado derecho, selecciona los campos: 
+* Verifica que la relación se haya creado.
 
-- Puntuación General. <br>
-- Región.
+![img261](../images/img261.png)
+ 
+**Paso 3** Relacionar la tabla de Ventas con la de Tiendas:
 
-Da clic en la flecha hacia abajo que está en el elemento del Eje Y. Finalmente, selecciona **Promedio** en la lista que aparece.
+* Encuentra la columna Empleado en la tabla de Ventas y la columna Empleado en la tabla de Tiendas.
+* Arrastra la columna Empleado de la tabla de Ventas hacia la columna en la tabla de Tiendas.
 
-![img241](../images/img241.png)
+![img262](../images/img262.png)
+* Asegúrate de que la relación sea correcta.
+
+### Tarea 3: Crear una tabla dinámica en Power Pivot
+
+**Paso 1.** Insertar una tabla dinámica:
+
+* En la ventana de Power Pivot y selecciona Tabla dinámica en la parte superior.
+
+![img263](../images/img263.png)
+
+* Elige Nueva hoja de cálculo para que la tabla dinámica se inserte en una hoja nueva en Excel.
+
+
+**Paso 2.** Agregar campos a la tabla dinámica:
+
+* En la lista de campos de la tabla dinámica, selecciona Tienda de la tabla de Tiendas y colócala en el área de Filas.
+
+* Agrega Descripción del Producto de la tabla de Productos al área de Filas debajo de Tienda.
+
+* Añade Unidades de la tabla de Ventas al área de Valores.
+![img264](../images/img264.png)
 
 ### Resultado esperado:
-
-![img242](../images/img242.png)
+![img265](../images/img265.png)
 
 ## [Menú principal](../README.md)
 
-## [Práctica 6.2. Unificación de nombres en una celda utilizando Power Query.](../Capítulo6/README_6.2.md)
+## [Práctica 6.1. Consolidación de Ventas.](../Capítulo6/README_6.1.md)
+
+## [Práctica 6.3. Cargar datos con Power BI.](../Capítulo6/README_6.3.md)
